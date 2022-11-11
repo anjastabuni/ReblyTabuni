@@ -1,0 +1,51 @@
+nav .navbar-nav a {
+  color: rgb(53, 218, 201);
+  
+}
+
+header h1,
+strong {
+  color: rgb(53, 218, 201);
+}
+header p{
+    margin-top: 10px;
+}
+header .btn{
+    margin-top: 20px;
+}
+#service{
+  background-color: rgb(232, 251, 255);
+}
+section h2::before, h2::after{
+  background-color: rgb(53, 218, 201);
+  content: "";
+  display: inline-block;
+  height: 1px;
+  position: relative;
+  vertical-align: middle;
+  width: 20%;
+}
+section h2::before{
+  right: 0.5em;
+  margin-left: -40%;
+}
+section h2::after{
+  left: 0.5em;
+  margin-right: -40%;
+}
+section h3{
+  color: rgb(53, 218, 201);
+}
+section span .fa-circle{
+  color: rgb(53, 218, 201);
+}
+
+.img-fluid{
+  width: 60vh;
+  border-radius: 10px;
+}
+@media (max-width: 1200px) {
+    header h1 {
+      font-weight: 100;
+      font-size: 3rem;
+    }
