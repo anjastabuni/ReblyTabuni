@@ -64,7 +64,7 @@ footer img {
 #scrollspyHeading1 img {
   width: 400px;
   height: 400px;
-  box-shadow: 3px 4px 7px rgb(97, 97, 121);
+  /* box-shadow: 3px 4px 7px rgb(97, 97, 121); */
   border-radius: 10px;
 
   /* background-image: linear-gradient(rgba(22, 87, 225, 0.486), rgba(0, 28, 241, 0.6)); */
